@@ -1,0 +1,16 @@
+meta_id: meta_cross_01
+seed: 1
+fr_num: 120
+v_hdim: 128
+mlp_dim: [300, 200]
+cnn_fdim: 128
+lr: 1.e-4
+num_epoch: 100
+iter_method: sample
+num_sample: 20000
+save_model_interval: 20
+fr_margin: 10
+
+# misc
+humanoid_model: humanoid_1205_v1
+vis_model:  humanoid_1205_vis
