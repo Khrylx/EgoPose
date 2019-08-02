@@ -25,10 +25,11 @@ Ye Yuan, Kris Kitani. ICCV 2019.
     * For linux, set the following environment variable to greatly improve multi-threaded sampling performance:    
     ```export OMP_NUM_THREADS=1```
 * **Note**: All scripts should be run from the root of this repo.
-# Quick Demo  
-### Pretrained Models
-* Please first download our pretrained models from this [link](https://drive.google.com/file/d/1DE-uSUk4JMDtL9aQY2R5rAd3_yPRUIIH/view?usp=sharing) and place the unzipped results folder inside the repo as "EgoPose/results".
 
+### Pretrained Models
+* Download our pretrained models from this [link](https://drive.google.com/file/d/1DE-uSUk4JMDtL9aQY2R5rAd3_yPRUIIH/view?usp=sharing) and place the unzipped results folder inside the repo as "EgoPose/results".
+
+# Quick Demo  
 ### Ego-Pose Estimation
 * To visualize the results for MoCap data:  
     ```python ego_pose/eval_pose.py --egomimic-cfg subject_03 --statereg-cfg subject_03 --mode vis```  
