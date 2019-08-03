@@ -1,5 +1,5 @@
 # EgoPose
-![Loading EgoPose demo gif](https://www.ye-yuan.com/wp-content/uploads/2019/07/ego_pose_rs.gif "EgoPose demo gif")
+![Loading EgoPose demo gif](https://www.ye-yuan.com/wp-content/uploads/2019/08/ego_pose_rs.gif "EgoPose demo gif")
 ![Loading EgoPose demo gif](https://www.ye-yuan.com/wp-content/uploads/2019/07/ego_forecast_rs.gif "EgoPose demo gif")
 ---
 This repo contains the official implementation of our paper:
