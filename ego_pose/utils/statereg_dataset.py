@@ -19,7 +19,7 @@ class Dataset:
         self.of_folder = os.path.join(self.base_folder, 'fpv_of')
         self.traj_folder = os.path.join(self.base_folder, 'traj')
         meta_file = '%s/meta/%s.yml' % (self.base_folder, meta_id)
-        self.meta = yaml.load(open(meta_file, 'r'))
+        self.meta = yaml.safe_load(open(meta_file, 'r'))
         self.no_traj = self.meta.get('no_traj', False)
         self.msync = self.meta['video_mocap_sync']
         self.dt = 1 / self.meta['capture']['fps']

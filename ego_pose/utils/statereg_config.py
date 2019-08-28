@@ -11,7 +11,7 @@ class Config:
         if not os.path.exists(cfg_name):
             print("Config file doesn't exist: %s" % cfg_name)
             exit(0)
-        cfg = yaml.load(open(cfg_name, 'r'))
+        cfg = yaml.safe_load(open(cfg_name, 'r'))
 
         # create dirs
         self.base_dir = 'results'

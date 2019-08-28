@@ -35,7 +35,7 @@ args = parser.parse_args()
 cfg = Config(args.egomimic_cfg, False)
 dt = 1 / 30.0
 data_dir = 'datasets'
-meta = yaml.load(open('%s/meta/meta_%s.yml' % (data_dir, args.data)))
+meta = yaml.safe_load(open('%s/meta/meta_%s.yml' % (data_dir, args.data)))
 
 res_base_dir = 'results'
 em_res_path = '%s/egomimic/%s/results/iter_%04d_%s.p' % (res_base_dir, args.egomimic_cfg, args.egomimic_iter, args.data)

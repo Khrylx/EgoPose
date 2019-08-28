@@ -15,7 +15,7 @@ class Config:
             if not os.path.exists(cfg_name):
                 print("Config file doesn't exist: %s" % cfg_name)
                 exit(0)
-            cfg = yaml.load(open(cfg_name, 'r'))
+            cfg = yaml.safe_load(open(cfg_name, 'r'))
 
         # create dirs
         self.base_dir = 'results'
@@ -32,7 +32,7 @@ class Config:
         # data
         self.meta_id = cfg['meta_id']
         self.data_dir = 'datasets'
-        self.meta = yaml.load(open('%s/meta/%s.yml' % (self.data_dir, self.meta_id), 'r'))
+        self.meta = yaml.safe_load(open('%s/meta/%s.yml' % (self.data_dir, self.meta_id), 'r'))
         self.takes = {x: self.meta[x] for x in ['train', 'test']}
         self.expert_feat_file = '%s/features/expert_%s.p' % (self.data_dir, cfg['expert_feat']) if 'expert_feat' in cfg else None
         self.cnn_feat_file = '%s/features/cnn_feat_%s.p' % (self.data_dir, cfg['cnn_feat']) if 'cnn_feat' in cfg else None

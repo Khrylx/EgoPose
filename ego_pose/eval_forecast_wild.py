@@ -35,7 +35,7 @@ args = parser.parse_args()
 cfg = Config(args.egoforecast_cfg, False)
 dt = 1 / 30.0
 data_dir = 'datasets'
-meta = yaml.load(open('%s/meta/meta_%s.yml' % (data_dir, args.data)))
+meta = yaml.safe_load(open('%s/meta/meta_%s.yml' % (data_dir, args.data)))
 pose_ctx = Pose2DContext(cfg)
 
 res_base_dir = 'results'
