@@ -22,7 +22,7 @@ Ye Yuan, Kris Kitani. ICCV 2019.
     * Tensorflow, OpenGL, yaml: 
     ```conda install tensorflow pyopengl pyyaml```
 * **Additional setup:**
-    * For linux, set the following environment variable to greatly improve multi-threaded sampling performance:    
+    * For linux, the following environment variable needs to be set to greatly improve multi-threaded sampling performance:    
     ```export OMP_NUM_THREADS=1```
 * **Note**: All scripts should be run from the root of this repo.
 
