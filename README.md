@@ -10,7 +10,7 @@ Ye Yuan, Kris Kitani. ICCV 2019.
 
 # Installation 
 ### Dataset
-* Download the dataset from this [link](https://drive.google.com/file/d/1vzxVHAtfvfIEDreqYvHulhtNwHcomotV/view?usp=sharing) and place the unzipped dataset folder inside the repo as "EgoPose/datasets". Please see the README.txt inside the folder for details about the dataset.
+* Download the dataset from Google Drive in the form of a [single zip](https://drive.google.com/file/d/1vzxVHAtfvfIEDreqYvHulhtNwHcomotV/view?usp=sharing) or [split zips](https://drive.google.com/drive/folders/1gArkvMsyePQvSkWaV45708MchH1nDZZE?usp=sharing) and place the unzipped dataset folder inside the repo as "EgoPose/datasets". Please see the README.txt inside the folder for details about the dataset.
 ### Environment
 * **Supported OS:** MacOS, Linux
 * **Packages:**
