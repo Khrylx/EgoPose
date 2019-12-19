@@ -10,7 +10,7 @@ Ye Yuan, Kris Kitani. ICCV 2019.
 
 # Installation 
 ### Dataset
-* Download the dataset from Google Drive in the form of a [single zip](https://drive.google.com/file/d/1vzxVHAtfvfIEDreqYvHulhtNwHcomotV/view?usp=sharing) or [split zips](https://drive.google.com/drive/folders/1gArkvMsyePQvSkWaV45708MchH1nDZZE?usp=sharing) and place the unzipped dataset folder inside the repo as "EgoPose/datasets". Please see the README.txt inside the folder for details about the dataset.
+* Download the dataset from Google Drive in the form of a [single zip](https://drive.google.com/file/d/1vzxVHAtfvfIEDreqYvHulhtNwHcomotV/view?usp=sharing) or [split zips](https://drive.google.com/drive/folders/1gArkvMsyePQvSkWaV45708MchH1nDZZE?usp=sharing) ([BaiduYun link](https://pan.baidu.com/s/18iSI84nFpCUdAqhuN1PcWw), password: ynui) and place the unzipped dataset folder inside the repo as "EgoPose/datasets". Please see the README.txt inside the folder for details about the dataset.
 ### Environment
 * **Supported OS:** MacOS, Linux
 * **Packages:**
@@ -27,7 +27,7 @@ Ye Yuan, Kris Kitani. ICCV 2019.
 * **Note**: All scripts should be run from the root of this repo.
 
 ### Pretrained Models
-* Download our pretrained models from this [link](https://drive.google.com/file/d/1DE-uSUk4JMDtL9aQY2R5rAd3_yPRUIIH/view?usp=sharing) and place the unzipped results folder inside the repo as "EgoPose/results".
+* Download our pretrained models from this [link](https://drive.google.com/file/d/1DE-uSUk4JMDtL9aQY2R5rAd3_yPRUIIH/view?usp=sharing) (or [BaiduYun link](https://pan.baidu.com/s/1NECDEX-itgzKoYHrxSMEwQ), password: kieq) and place the unzipped results folder inside the repo as "EgoPose/results".
 
 # Quick Demo  
 ### Ego-Pose Estimation
