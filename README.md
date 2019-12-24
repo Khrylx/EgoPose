@@ -57,7 +57,7 @@ If you find our work useful in your research, please consider citing our paper [
 @inproceedings{yuan2019ego,
   title={Ego-Pose Estimation and Forecasting as Real-Time PD Control},
   author={Yuan, Ye and Kitani, Kris},
-  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
   year={2019},
   pages={10082--10092}
 }
