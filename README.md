@@ -5,8 +5,9 @@
 This repo contains the official implementation of our paper:
   
 Ego-Pose Estimation and Forecasting as Real-Time PD Control  
-Ye Yuan, Kris Kitani. ICCV 2019.  
-[[project page](https://www.ye-yuan.com/ego-pose)] [[paper](https://arxiv.org/pdf/1906.03173.pdf)] [[video](https://youtu.be/968IIDZeWE0)]
+Ye Yuan, Kris Kitani  
+**ICCV 2019**  
+[[website](https://www.ye-yuan.com/ego-pose)] [[paper](https://arxiv.org/pdf/1906.03173.pdf)] [[video](https://youtu.be/968IIDZeWE0)]
 
 # Installation 
 ### Dataset
