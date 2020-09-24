@@ -53,7 +53,7 @@ Ye Yuan, Kris Kitani
 * If you are interested in training and testing with our code, please see [train_and_test.md](https://github.com/Khrylx/EgoPose/blob/master/docs/train_and_test.md).
 
 # Citation
-If you find our work useful in your research, please consider citing our paper [Ego-Pose Estimation and Forecasting as Real-Time PD Control](https://www.ye-yuan.com/ego-pose):
+If you find our work useful in your research, please cite our paper [Ego-Pose Estimation and Forecasting as Real-Time PD Control](https://www.ye-yuan.com/ego-pose):
 ```
 @inproceedings{yuan2019ego,
   title={Ego-Pose Estimation and Forecasting as Real-Time PD Control},
