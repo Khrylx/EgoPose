@@ -18,7 +18,7 @@ class HumanoidEnv(mujoco_env.MujocoEnv):
         # visualization
         self.save_video = False
         self.video_res = (224, 224)
-        self.video_dir = cfg.video_dir
+        self.video_dir = "./"
         self.set_cam_first = set()
         self.subsample_rate = 1
         # env specific
