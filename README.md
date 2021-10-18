@@ -18,7 +18,7 @@ Ye Yuan, Kris Kitani
     * Python >= 3.6
     * PyTorch >= 0.4 ([https://pytorch.org/](https://pytorch.org/))
     * gym ([https://github.com/openai/gym](https://github.com/openai/gym))
-    * mujoco-py ([https://github.com/openai/mujoco-py](https://github.com/openai/mujoco-py))
+    * mujoco-py ([https://github.com/openai/mujoco-py](https://github.com/openai/mujoco-py)) (**[MuJoCo](https://mujoco.org/) is now free thanks to DeepMind!** 🎉🎉🎉)
     * OpenCV: ```conda install -c menpo opencv```
     * Tensorflow, OpenGL, yaml: 
     ```conda install tensorflow pyopengl pyyaml```
